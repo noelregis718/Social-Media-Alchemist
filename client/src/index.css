@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: hsl(0 0% 0%);
+  --color-foreground: hsl(0 0% 100%);
+  --color-primary: hsl(0 0% 100%);
+  --color-primary-foreground: hsl(0 0% 0%);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-white selection:text-black font-sans;
+  }
+}
+
+/* Custom animations - defined using standard CSS to avoid @apply issues in build */
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.slide-in-from-bottom-2 {
+  animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards, fadeIn 0.3s ease-out forwards;
+}
+
+.slide-in-from-top-4 {
+  animation: slideDown 0.5s ease-out forwards, fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0.5rem);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-1rem);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,16 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mobile Phone Body -->
+  <rect x="120" y="40" width="272" height="432" rx="40" fill="#40C4FF" stroke="#0D47A1" stroke-width="24"/>
+  <rect x="230" y="420" width="52" height="8" rx="4" fill="#0D47A1" />
+  
+  <!-- Left Hashtag Bubble -->
+  <path d="M40 220C40 197.909 57.9086 180 80 180H220C242.091 180 260 197.909 260 220V320C260 342.091 242.091 360 220 360H160L120 400V360H80C57.9086 360 40 342.091 40 320V220Z" fill="#8BC34A" stroke="#0D47A1" stroke-width="20"/>
+  <text x="75" y="315" fill="white" font-family="Arial, sans-serif" font-size="140" font-weight="bold">#</text>
+  
+  <!-- Right Heart Bubble -->
+  <path d="M280 400C257.909 400 240 382.091 240 360V260C240 237.909 257.909 220 280 220H430C452.091 220 470 237.909 470 260V360C470 382.091 452.091 400 430 400H370L330 440V400H280Z" fill="white" stroke="#0D47A1" stroke-width="20"/>
+  <path d="M355 340C335 340 320 325 320 305C320 285 340 265 355 260C370 265 390 285 390 305C390 325 375 340 355 340Z" fill="#F06292" />
+  <path d="M355 340C324.623 340 300 315.377 300 285C300 264.887 311 247.333 327.333 238C335.333 234 345 232 355 232C365 232 374.667 234 382.667 238C399 247.333 410 264.887 410 285C410 315.377 385.377 340 355 340" fill="none" />
+  <!-- Optimized Real Heart Icon -->
+  <path d="M355 348C340 330 310 305 310 282C310 265 325 255 340 255C348 255 353 260 355 264C357 260 362 255 370 255C385 255 400 265 400 282C400 305 370 330 355 348Z" fill="#FF4081" />
+</svg>
