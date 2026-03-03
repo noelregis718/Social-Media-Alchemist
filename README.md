@@ -1,5 +1,3 @@
-![Content Alchemist Banner](C:/Users/noelr/.gemini/antigravity/brain/3bfed3be-e0a9-42c6-9dd0-7e3d8dbb64c2/social_media_alchemist_banner_1772509415402.png)
-
 # Social Media Content Alchemist 🧙‍♂️✨
 
 **Transform your ideas into viral social media magic.** Content Alchemist uses the power of Google Gemini AI to transmute simple topics into platform-optimized, high-engagement posts for all major social networks.
@@ -70,11 +68,3 @@ npm run full-dev
 2. **Select Platform**: Choose the target social network (e.g., LinkedIn for professional outreach, Twitter for viral hooks).
 3. **Add Context**: Specify the vibe—funny, professional, concise, etc.
 4. **Alchemize**: Hit **GENERATE CONTENT** and watch the magic happen.
-
----
-
-## 🛡️ Security
-This project uses a secure backend proxy to interact with the Gemini API, ensuring your `GEMINI_API_KEY` is never exposed to the client-side browser environment.
-
-> [!IMPORTANT]
-> Never commit your `.env` file to version control. It is already included in `.gitignore`.
